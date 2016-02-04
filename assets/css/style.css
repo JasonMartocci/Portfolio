@@ -4,6 +4,7 @@
 body{
 	font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
 	height: 100%;
+	background-image: url("../images/symphony.png");
 }
 a{
 	text-decoration: none;
@@ -41,6 +42,12 @@ p{
 	padding: 0px;
 	height: 100%;
 }
+.header_container{
+	position: relative;
+	margin: auto;
+	background-color: #ffffff;
+	height:90px;
+}
 .header{
 	position: relative;
 	width: 960px;
@@ -64,8 +71,8 @@ li{
 }
 .content{
 	position: relative;
-	background-image: url("../images/symphony.png");
 	border-top: 3px solid #cecece;
+	background-image: url("../images/symphony.png");
 	width:100%;
 	height:auto;
 	margin: 0 auto;
