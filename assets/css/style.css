@@ -1,7 +1,6 @@
 * {
 	margin: 0;
 }
-/* This is a test */
 html, body {
 	height: 100%;
 }
@@ -51,12 +50,6 @@ p{
 	background-color: #ffffff;
 	height:90px;
 }
-.header{
-	position: relative;
-	width: 960px;
-	margin: auto;
-	padding-top: 20px;
-}
 .logo{
 	float: left;
 	background-color: #4aaaa5;
@@ -81,6 +74,12 @@ li{
 	margin: 0 auto;
 	clear: both;
 }
+.header{
+	position: relative;
+	width: 960px;
+	margin: auto;
+	padding-top: 20px;
+}
 .content_container{
 	position: relative;
 	width: 960px;
@@ -101,6 +100,7 @@ li{
 }
 .headshot{
 	float: left;
+	width: 200px;
 	padding: 0 20px 20px 0;
 }
 .right_content_container{
@@ -118,6 +118,9 @@ li{
 	position: relative;
 	width: 610px;
 	clear: both;
+}
+.portfolio_images{
+	width: 274px;
 }
 .column1{
 	float: left;
@@ -176,3 +179,143 @@ li{
 	margin-top: 35px;
 	color: #4aaaa5;
 } 
+
+/* Start of Tablet 768 width css styling */
+@media only screen and (max-width: 768px) {
+	.logo{
+		float: left;
+		padding: 20px;
+	}
+	.header{
+		position: relative;
+		width: 700px;
+		margin: auto;
+		padding-top: 20px;
+	}
+	.content_container{
+		position: relative;
+		width: 750px;
+		min-height: 100%;
+		margin: 0 auto;
+		clear: both;
+	}
+	.left_content_container{
+		float:left;
+	    width: 700px;
+		margin: 25px 0 25px 25px;
+	    background-color: #ffffff;
+	    border: 3px solid #dddddd;
+	}
+	.right_content_container{
+		float: left;
+	    width: 700px;
+		margin: 25px 0 25px 25px;
+	    background-color: #ffffff;
+	    border: 3px solid #dddddd;
+	}
+	.right_content{
+		text-align: left;
+		padding: 30px 0 30px 25px;
+	}
+}
+/* End of Tablet 768 width css styling */
+
+/* Start of Mobile 640 width css styling */
+@media only screen and (max-width: 640px) {
+	.header{
+		position: relative;
+		width: 600px;
+		margin: 0 auto;
+		padding-top: 0;
+	}
+	.logo{
+		width: 560px;
+		height: 40px;
+		text-align: center;
+	}
+	.navigation{
+		float: left;
+		width: 100%;
+		text-align: center;
+		background-color: #ffffff;
+		clear: both;
+	}
+	ul{
+		list-style-type: none;
+		float: left;
+		padding-bottom: 15px;
+		clear: both;
+	}
+	li{
+		display: inline;
+		margin-left: 100px;
+		color: #000000;
+	}
+	.content_container{
+		position: relative;
+		width: 600px;
+		min-height: 100%;
+		margin: 0 auto;
+		clear: both;
+	}
+	.left_content_container{
+		float:left;
+	    width: 550px;
+		margin: 25px 0 25px 25px;
+	    background-color: #ffffff;
+	    border: 3px solid #dddddd;
+	}
+	.right_content_container{
+		float: left;
+	    width: 550px;
+		margin: 25px 0 25px 25px;
+	    background-color: #ffffff;
+	    border: 3px solid #dddddd;
+	}
+	.right_content{
+		text-align: left;
+		padding: 30px 0 30px 25px;
+	}
+
+	.textbox { 
+	    -webkit-border-radius: 5px; 
+	    -moz-border-radius: 5px; 
+	    border-radius: 5px; 
+	    border: 1px solid #dddddd; 
+	    outline: 0; 
+	    height: 25px; 
+	    width: 504px; 
+	 } 
+	.textarea { 
+	    -webkit-border-radius: 5px; 
+	    -moz-border-radius: 5px; 
+	    border-radius: 5px; 
+	    border: 1px solid #dddddd; 
+	    outline: 0; 
+	    height: 150px; 
+	    width: 504px; 
+	 } 
+	.portfolio_content{
+		position: relative;
+		width: 510px;
+		clear: both;
+	}
+	.portfolio_images{
+		width: 510px;
+	}
+	.column1{
+		float: left;
+		width: 274px;
+	}
+	.column2{
+		float: left;
+		width: 274px;
+		clear: both;
+	}
+	.headshot{
+		float: left;
+		width: 510px;
+		padding: 0 0 20px 0;
+	}
+}
+/* End of Mobile 640 width css styling */
