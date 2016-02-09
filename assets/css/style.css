@@ -230,12 +230,13 @@ li{
 	}
 	.logo{
 		height: 40px;
-		width: 580px;
+		width: 582px;
 		text-align: center;
 	}
 	.navigation{
 		float: left;
 		text-align: center;
+		width: 622px;
 		background-color: #ffffff;
 		clear: both;
 	}
