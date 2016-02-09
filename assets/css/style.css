@@ -223,13 +223,14 @@ li{
 /* Start of Mobile 640 width css styling */
 @media only screen and (max-width: 640px) {
 	.header{
-		position: relative;
-		width: 600px;
+		position: fixed;
+		width: 100%;
 		margin: 0 auto;
 		padding-top: 0;
+		z-index: 1;
 	}
 	.logo{
-		width: 560px;
+		width: 100%;
 		height: 40px;
 		text-align: center;
 	}
@@ -250,6 +251,10 @@ li{
 		display: inline;
 		margin-left: 100px;
 		color: #000000;
+	}
+	.content{
+		margin: 38px 0 0 0;
+		clear: both;
 	}
 	.content_container{
 		position: relative;
